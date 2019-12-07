@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'MFMovieKit'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'A video editing framework based on AVFoundation.'
   s.description      = 'A lightweight video editing framework that is easier to extend and use.'
 
