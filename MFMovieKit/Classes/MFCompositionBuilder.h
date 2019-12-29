@@ -17,4 +17,6 @@
 
 - (MFComposition *)bulidComposition;
 
+- (AVVideoComposition *)bulidVideoComposition;
+
 @end

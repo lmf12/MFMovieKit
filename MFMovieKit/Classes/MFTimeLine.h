@@ -7,8 +7,11 @@
 //
 
 #import "MFClip.h"
+#import "MFVideoTransition.h"
 
 @interface MFTimeLine : NSObject
+
+@property (nonatomic, strong) NSArray<MFVideoTransition *> *videoTransitions;
 
 @property (nonatomic, copy) NSArray<NSArray<MFClip *> *> *clips;
 
